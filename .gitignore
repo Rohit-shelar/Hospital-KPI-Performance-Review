@@ -1,0 +1,29 @@
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Hospital datasets - keep private
+data/raw/*
+data/processed/*
+data/final/*
+
+# Keep empty folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/final/.gitkeep
+
+# Secrets
+.env
+
+# Temporary files
+*.log
+*.tmp
+
+# VS Code
+.vscode/
